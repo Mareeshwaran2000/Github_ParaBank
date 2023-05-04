@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Para Bank APP" verbose="4" thread-count="3">
+	
+
+	
+	<test name="Para Bank APP Login Page Test">
+		<classes>
+			<class name="com.PB.pagestest.PBloginpagestest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP Home Page Test">
+		<classes>
+			<class name="com.PB.pagestest.homepagetest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP OpenNewAccount Page Test">
+		<classes>
+			<class name="com.PB.pagestest.opennew_pagestest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP AccountOverview Page Test">
+		<classes>
+			<class name="com.PB.pagestest.com_accountoverviewTest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP TransferFunds Page Test">
+		<classes>
+			<class name="com.PB.pagestest.com_tranferfundTest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP BillPay Page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_billpaypagestest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP FindTransaction Page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_findtransationtest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP Updatecontactinfo Page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_updatepagestest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP Logout Page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_logout_test" />
+		</classes>
+	</test>
+	<test name="Para Bank APP Admin page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_Adminpagetest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP service page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_servicepagetest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP Footer page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_FooterpageTest" />
+		</classes>
+	</test>
+	<test name="Para Bank APP AboutUs Page Test">
+		<classes>
+			<class name="com.PB.pagestest.PB_AboutUsPageTest" />
+		</classes>
+	</test>
+	
+	
+
+
+	
+
+	<!-- <test name="Open Cart Product Info Page Test"> <classes> <class name="com.qa.opencart.tests.ProductInfoPageTest" 
+		/> </classes> </test> -->
+
+
+	<!-- <test name="Open Cart Registration Page Test"> <classes> <class name="com.qa.opencart.tests.RegistrationPageTest" 
+		/> </classes> </test> -->
+
+</suite>
